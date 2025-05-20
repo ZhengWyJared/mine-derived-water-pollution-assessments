@@ -23,7 +23,7 @@ start_time = time.time()
 
 for i in range(100):
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=16, test_size=5, random_state=i+3)  # 随机种子为None以确保每次划分都不同
+    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=16, test_size=5, random_state=i+3) 
 
 
     model = LinearRegression()
